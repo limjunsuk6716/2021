@@ -1,0 +1,43 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification {
+  font-size: 12px;
+  background-color: var(--spurscolor);
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: 16px;
+  top: -15.5px;
+}
+.small__notification {
+  background-color: var(--spurscolor);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  top: -18px;
+}
